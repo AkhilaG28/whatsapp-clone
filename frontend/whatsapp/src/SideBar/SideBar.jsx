@@ -5,6 +5,7 @@ import ChatIcon from "@material-ui/icons/Chat";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import SearchOutlinedIcon from "@material-ui/icons/SearchOutlined";
 import { IconButton, Avatar } from "@material-ui/core";
+import SideBarChatName from "./SideBarChatName";
 
 function SideBar() {
   return (
@@ -29,8 +30,13 @@ function SideBar() {
       <div className={styles.sidebar_search}>
         <div className={styles.sidebar_searchContainer}>
           <SearchOutlinedIcon className={styles.icon} />
-          <input type="text" placeholder="Search or start new chat" />
+          <input type="text" placeholder="Search or start a new chat" />
         </div>
+      </div>
+
+      {/* SideBar Chat Names */}
+      <div className={styles.sidebar_chatNames}>
+        <SideBarChatName />
       </div>
     </div>
   );

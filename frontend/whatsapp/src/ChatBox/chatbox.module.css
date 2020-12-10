@@ -3,3 +3,24 @@
   flex-direction: column;
   flex: 0.65;
 }
+
+.chatbox_details {
+  margin: 2% 0 0 0;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  background: #cfdadf;
+}
+
+.chatbox_chatName,
+.chatbox_info {
+  display: flex;
+}
+
+.chatbox_chatName > h5 {
+  margin: 15%;
+}
+
+.chatbox_info {
+  margin: 1% 6%;
+}
