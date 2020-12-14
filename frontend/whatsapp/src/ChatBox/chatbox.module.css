@@ -24,3 +24,71 @@
 .chatbox_info {
   margin: 1% 6%;
 }
+
+.chatbody {
+  background-image: url("https://i.pinimg.com/originals/ab/ab/60/abab60f06ab52fa7846593e6ae0c9a0b.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  float: 1;
+  padding: 30px;
+  overflow: scroll;
+}
+
+.chatbody_sender {
+  background: white;
+}
+
+.chat_timestamp {
+  margin-left: 10px;
+  font-size: xx-small;
+}
+
+.chat_name {
+  position: absolute;
+  top: -15px;
+  font-weight: 800;
+  font-size: xx-small;
+}
+
+.chatbody_receiver {
+  margin-left: auto;
+  background: #dbf8c6;
+}
+
+.chatbody_sender,
+.chatbody_receiver {
+  position: relative;
+  font-size: 16px;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.chat_footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  color: dimgrey;
+  background: #cfdadf;
+}
+
+.chat_input {
+  display: flex;
+  background-color: white;
+  width: 80%;
+  height: 35px;
+  border-radius: 20px;
+  margin-top: -5px;
+}
+
+.icon {
+  color: gray;
+  margin: 6px 4px;
+}
+
+.chat_input > input {
+  border: 0;
+  outline-width: 0;
+  width: 80%;
+}

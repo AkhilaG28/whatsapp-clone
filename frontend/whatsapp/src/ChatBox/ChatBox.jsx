@@ -3,6 +3,8 @@ import styles from "./chatbox.module.css";
 import { Avatar } from "@material-ui/core";
 import SearchOutlinedIcon from "@material-ui/icons/SearchOutlined";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
+import ChatBody from "./ChatBody";
+import ChatFooter from "./ChatFooter";
 
 function ChatBox() {
   return (
@@ -19,6 +21,8 @@ function ChatBox() {
           <MoreVertIcon />
         </div>
       </div>
+      <ChatBody />
+      <ChatFooter />
     </div>
   );
 }
